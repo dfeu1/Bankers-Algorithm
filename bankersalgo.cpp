@@ -74,7 +74,7 @@ int main()
 
   int flag = 1; 
   for (int i = 0; i < processes; i++){
-    if(store[i] == 0){
+    if(store[i] == 0) {
         flag = 0;
         cout << "The given sequence is not safe\n";
         break;
