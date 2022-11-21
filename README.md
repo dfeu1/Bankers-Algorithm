@@ -7,16 +7,17 @@ Considering a system with five processes P0 through P4 and three resources of ty
 ## How to Compile (Linux Terminal)
 
 gcc++ -o banker bankersalgo.cpp
+./banker
 
 ### Examples
 
-Examples of the programming runnning are given as follows:
+Examples of the programming runnning are given as follows(output):
 
 ```
+Safe Sequence:
+ P1,  P3,  P4,  P0,  P2
 ```
 
-```
-```
 
 ## Authors
 
